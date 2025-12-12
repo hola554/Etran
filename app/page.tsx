@@ -93,13 +93,13 @@ export default function Home() {
               <div className="w-full max-w-4xl px-4 sm:px-8">
                 {/* Mobile logo layout - 2x3 grid */}
                 <img
-                  src="/images/logo-20wall-2.png"
+                  src="/Logo wall-2.png"
                   alt="Partner logos - Blooming, BuildRight, Flowbot, EXPOR, Redo"
                   className="w-full h-auto sm:hidden"
                 />
                 {/* Desktop logo layout - horizontal */}
                 <img
-                  src="/images/logo-20wall.png"
+                  src="/Logo wall.png"
                   alt="Partner logos - Blooming, BuildRight, Flowbot, EXPOR, Redo"
                   className="hidden sm:block w-full h-auto"
                 />
@@ -118,7 +118,7 @@ export default function Home() {
               {/* 2x Card */}
               <div className="bg-[#D2FD9C] rounded-3xl p-8 sm:p-16 flex flex-col items-center justify-center min-h-[280px] sm:min-h-[320px]">
                 <img
-                  src="/icons/2x-text.png"
+                  src="\2x.png"
                   alt="2x"
                   className="w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-6 object-contain"
                 />
@@ -127,15 +127,18 @@ export default function Home() {
 
               {/* Efficiency Chart Card */}
               <div className="bg-[#D2FD9C] rounded-3xl p-8 sm:p-16 flex flex-col items-center justify-center min-h-[280px] sm:min-h-[320px]">
-                <svg
-                  className="w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-6"
-                  viewBox="0 0 1463 683"
-                  fill="none"
+                <img
+                  src="/vector.png"
+                  alt="Efficiency chart"
+                  className="w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-6 object-contain"
+                />
+                <p className="text-gray-900 text-base sm:text-lg font-normal">Efficiency Increase Per Transfer</p>
+              </div>
 
               {/* Centralize Finances Card */}
               <div className="bg-[#D2FD9C] rounded-3xl p-8 sm:p-16 flex flex-col items-center justify-center min-h-[280px] sm:min-h-[320px]">
                 <img
-                  src="/icons/centralize-icon.png"
+                  src="/circle.png"
                   alt="Centralize finances"
                   className="w-24 h-24 sm:w-32 sm:h-32 mb-4 sm:mb-6 object-contain"
                 />
@@ -145,7 +148,7 @@ export default function Home() {
               {/* 130% Card */}
               <div className="bg-[#D2FD9C] rounded-3xl p-8 sm:p-16 flex flex-col items-center justify-center min-h-[280px] sm:min-h-[320px]">
                 <img
-                  src="/icons/130-percent.png"
+                  src="/130.png"
                   alt="130%"
                   className="w-36 h-24 sm:w-48 sm:h-32 mb-4 sm:mb-6 object-contain"
                 />
@@ -163,7 +166,7 @@ export default function Home() {
                 <div className="space-y-4 sm:space-y-6">
                   <div className="bg-white rounded-3xl overflow-hidden shadow-lg">
                     <img
-                      src="/green-etran-card.jpg"
+                      src="/Benefit image.png"
                       alt="Etran green payment card"
                       className="w-full h-64 sm:h-80 object-cover"
                     />
@@ -182,7 +185,7 @@ export default function Home() {
                 <div className="space-y-4 sm:space-y-6">
                   <div className="bg-white rounded-3xl overflow-hidden shadow-lg">
                     <img
-                      src="/tax-form-1040-es-document.jpg"
+                      src="/Benefit image1.png"
                       alt="Tax form 1040-ES document"
                       className="w-full h-64 sm:h-80 object-cover"
                     />
@@ -203,7 +206,7 @@ export default function Home() {
             <div className="mt-16 sm:mt-32 mb-12 sm:mb-24 px-4">
               <div className="bg-white rounded-3xl overflow-hidden shadow-lg">
                 <img
-                  src="/person-using-smartphone.jpg"
+                  src="/image.png"
                   alt="Person using smartphone"
                   className="w-full h-64 sm:h-80 lg:h-96 object-cover"
                 />
@@ -259,9 +262,9 @@ export default function Home() {
             <div className="mt-16 sm:mt-32 mb-12 sm:mb-24 px-4">
               <div className="bg-white rounded-3xl overflow-hidden shadow-lg relative">
                 <img
-                  src="/person-using-phone-outdoors-at-sunset.jpg"
+                  src="/image 442.png"
                   alt="Person using phone outdoors"
-                  className="w-full h-[400px] sm:h-[500px] lg:h-[600px] object-cover"
+                  className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover object-[center_35%]"
                 />
                 <div className="absolute inset-0 bg-black/50 flex flex-col justify-center px-6 sm:px-12 lg:px-16">
                   <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal text-white mb-6 sm:mb-8 leading-tight">
